@@ -1,0 +1,11 @@
+1 Neural Networks
+It consists of layers of interconnected nodes.
+Each node receives input, processes it and passes to the next layer.
+
+Layers: there are 3 types of layers in neural network
+- Input Layer: the initial layer where data enters the network
+- Hidden Layers: intermediate layers where the actual processing is done. The term "deep" in Deep Learning refers to the use of multiple hidden layers.
+- Output Layer: the final layer where the output is produced
+
+
+
