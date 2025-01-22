@@ -7,5 +7,15 @@ Layers: there are 3 types of layers in neural network
 - Hidden Layers: intermediate layers where the actual processing is done. The term "deep" in Deep Learning refers to the use of multiple hidden layers.
 - Output Layer: the final layer where the output is produced
 
+2 Activation Functions
+These functions introduce non-linearity to the network, allowing it to learn more complex patterns.
+Common activation functions include ReLU, Sigmoid and Tanh.
 
+3 Training
+- Forward Propagation: data passes through the network, and predictions are made.
+- Loss Function: measures how far the predictions are from the actual results.
+- Backpropagation: the error is sent back through the network, adjusting the weights to minimize the loss.
+
+4 Optimization Algorithms
+Algorithms like Gradient Descent are used to update the weights and minimize the loss.
 
