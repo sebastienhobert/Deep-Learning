@@ -6,6 +6,7 @@ Common activation functions include:
 
 - **Tanh**: Squashes inputs to a range between -1 and 1, giving a bit more flexibility.
 
+----------------------------------------------------------------------------------------------------------------------------
 
 Common loss functions include:
 
