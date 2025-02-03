@@ -38,4 +38,33 @@ conv_layer = tf.nn.conv2d(image, filters=filter, strides=1, padding='VALID')
 # input <=> input image (4D tensor)
 # filters <=> convolution filter (4D tensor)
 # strides <=> stride (integer or list)
-# padding <=> padding type ('VALID' or 'SAME')
+# padding <=> padding type ('VALID' or 'SAME') since we use 'VALID' it doesn't add extra borders, it will highlight the edges in the original image
+
+# Convert result to numpy for visualization
+output_image = conv_layer.numpy().squeeze()
+# conv_layer.numpy()
+# ==> converts the TensorFlow tensor (result of tf.nn.conv2d()) into a NumPy array
+# ==> This allows further processing with NumPy functions or visualization with Matplotlib
+
+# .squeeze()
+# ==> removes dimensions with size 1 (like batch and channel dimensions)
+# ==> if the output tensor has shape (1, 3, 3, 1) (batch_size=1, height=3, width=3, channels=1),
+# ==> .squeeze() will reshape it to (3,3) (removing batch and channels dimensions)
+# ==> this makes it easier to visualize the image as a 2D array
+
+# Show the original and filtered images
+plt.subplot(1, 2, 1)
+plt.title("Original Image")
+plt.imshow(image.squeeze(), cmap='gray')
+# plt.subplot(1, 2, 1) == creates the first subplot in a 1-row, 2-column grid
+# plt.imshow(image.squeeze(), cmap='gray')
+# ==> .squeeze() removes unnecessary dimensions (from (1, 5, 5, 1) to (5,5))
+# ==> cmap='gray' ensures the image is displayed in grayscale
+
+plt.subplot(1, 2, 2)
+plt.title("After Convolution")
+plt.imshow(output_image, cmap='gray')
+# plt.subplot(1, 2, 2) == creates the second subplot
+# plt.imshow(output_image, cmap='gray') == displays the filtered image
+
+plt.show()
