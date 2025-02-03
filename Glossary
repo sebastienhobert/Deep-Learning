@@ -6,6 +6,8 @@ Dense layer = a linear operation in which every input is connected to every outp
 
 Flattening = converting 2d image to 1d vector
 
+Loss function = it measures the difference between the prediction and the actual output
+
 Overfitting = when a model gets trained with so much data, it starts learning from the noise and inaccurate data entries
 
 ReLU = an activation function that allows a model to solve nonlinear problems
