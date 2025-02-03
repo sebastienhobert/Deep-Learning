@@ -1,0 +1,1 @@
+This code creates a 5x5 grayscale image (as a NumPy array) and defines a 3x3 filter (edge detection). Then it uses TensorFlow's conv2d function to apply the filter to the image. Finally, it displays the original image and the transformed image after applying the convolution.
