@@ -36,9 +36,11 @@ filter = np.array([
 conv_layer = tf.nn.conv2d(image, filters=filter, strides=1, padding='VALID')
 # tf.nn.conv2d == performs a 2D convolution operation, typically used in deep learning for feature extraction
 # input <=> input image (4D tensor)
-# filters <=> convolution filter (4D tensor)
-# strides <=> stride (integer or list)
+# filters <=> convolution filter (4D tensor) also called kernel, which is used to detect patterns in the image
+# strides <=> stride (integer or list), defines how much the filter moves across the image
 # padding <=> padding type ('VALID' or 'SAME') since we use 'VALID' it doesn't add extra borders, it will highlight the edges in the original image
+# ==> 'VALID' means no padding (output size will shrink)
+# ==> 'SAME' would add zero padding so that the output size remains the same as in the input
 
 # Convert result to numpy for visualization
 output_image = conv_layer.numpy().squeeze()
