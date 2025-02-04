@@ -1,0 +1,1 @@
+This script demonstrates edge detection on an MNIST digit image using a Laplacian filter with TensorFlow. It applies a 3x3 convolutional kernel to highlight edges in the handwritten digit.
