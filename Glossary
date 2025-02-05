@@ -1,3 +1,5 @@
+Activation function = it decides whether a neuron should be activated or not
+
 Classification = a machine learning model used for distinguishing among two or more output categories
 
 Cross-Entropy = loss function to measure the difference between the predicted probability distribution and the true distribution
