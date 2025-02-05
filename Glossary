@@ -1,4 +1,4 @@
-Activation function = it decides whether a neuron should be activated or not
+Activation function = it decides whether a neuron should be activated or not based on its input to the network
 
 Classification = a machine learning model used for distinguishing among two or more output categories
 
