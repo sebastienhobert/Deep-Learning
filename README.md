@@ -15,3 +15,15 @@ Common loss functions include:
 **Cross-Entropy Loss**: Measures how well the predicted probabilities match the actual labels. Often used in classification tasks (e.g., identifying cats vs. dogs).
 
 **Hinge Loss**: Used in tasks like support vector machines (SVMs) for classification.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Here are some guidelines for selecting an activation function for the output layer based on the type of prediction problem:
+
+**Regression**: Use Linear Activation Function
+
+**Binary Classification**: Use Sigmoid/Logistic Activation Function
+
+**Multi-class Classification**: Use Softmax
+
+**Multi-label Classification**: Use Sigmoid
