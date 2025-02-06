@@ -1,5 +1,7 @@
 Activation function = it decides whether a neuron should be activated or not based on its input to the network
 
+Adam optimizer = (Adaptive moment estimation) it adjusts the learning rate for each individual parameter within a model rather than using a single global learning rate
+
 Classification = a machine learning model used for distinguishing among two or more output categories
 
 Cross-Entropy = loss function to measure the difference between the predicted probability distribution and the true distribution
@@ -17,5 +19,7 @@ Overfitting = when a model gets trained with so much data, it starts learning fr
 ReLU = an activation function that allows a model to solve nonlinear problems
 
 Softmax = a function that provides probabilities for each possible output class
+
+Stochastic = random probability distribution
 
 Tensor = a tensor is a multidimensional array that represents the data in a machine learning model
