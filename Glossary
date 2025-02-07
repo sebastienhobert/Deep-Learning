@@ -2,6 +2,8 @@ Activation function = it decides whether a neuron should be activated or not bas
 
 Adam optimizer = (Adaptive moment estimation) it adjusts the learning rate for each individual parameter within a model rather than using a single global learning rate
 
+Backpropagation = the goal is to reduce the difference between the model's predicted output and the actual output by adjusting the weights and biases in the network
+
 Classification = a machine learning model used for distinguishing among two or more output categories
 
 Cross-Entropy = loss function to measure the difference between the predicted probability distribution and the true distribution
