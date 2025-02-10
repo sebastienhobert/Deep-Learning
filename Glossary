@@ -12,6 +12,8 @@ Convolutional Neural Network (CNN) = network architecture used for image recogni
 
 Cross-Entropy = loss function to measure the difference between the predicted probability distribution and the true distribution
 
+Data Augmentation = increasing the amount of data and diversity of data. There is no collection of new data, rather the already present data is transformed.
+
 Dense Layer = a linear operation in which every input is connected to every output by a weight
 
 Flattening = converting 2d image to 1d vector
