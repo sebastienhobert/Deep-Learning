@@ -14,6 +14,8 @@ Cross-Entropy = loss function to measure the difference between the predicted pr
 
 Data Augmentation = increasing the amount of data and diversity of data. There is no collection of new data, rather the already present data is transformed.
 
+Dropout = method where random neurons are dropped during training to prevent overfitting by ensuring the network does not rely too heavily on any one neuron
+
 Dense Layer = a linear operation in which every input is connected to every output by a weight
 
 Flattening = converting 2d image to 1d vector
