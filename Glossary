@@ -18,6 +18,8 @@ Dropout = method where random neurons are dropped during training to prevent ove
 
 Dense Layer = a linear operation in which every input is connected to every output by a weight
 
+Epoch = one complete pass through the entire training dataset
+
 Flattening = converting 2d image to 1d vector
 
 Loss Function = it measures the difference between the prediction and the actual output
