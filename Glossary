@@ -12,7 +12,7 @@ Convolutional Neural Network (CNN) = network architecture used for image recogni
 
 Cross-Entropy = loss function to measure the difference between the predicted probability distribution and the true distribution
 
-Data Augmentation = increasing the amount of data and diversity of data. There is no collection of new data, rather the already present data is transformed.
+Data Augmentation = increasing the amount of data and diversity of data. There is no collection of new data, rather the already present data is transformed
 
 Dropout = method where random neurons are dropped during training to prevent overfitting by ensuring the network does not rely too heavily on any one neuron
 
@@ -20,9 +20,11 @@ Dense Layer = a linear operation in which every input is connected to every outp
 
 Epoch = one complete pass through the entire training dataset
 
+Feedforward Neural Network (FNN) = type of neural networks where information flows in one direction from the input to the output layers, without cycles or loops
+
 Flattening = converting 2d image to 1d vector
 
-Loss Function = it measures the difference between the prediction and the actual output
+Loss Function = it measures the difference between the prediction and the actual output, it's a crucial component in training neural networks as it provides a quantifiable metric to guide the optimization process (MeanSquaredError for regression tasks, Cross-Entropy Loss for classification tasks)
 
 Optimizer = helps to minimize the loss function
 
