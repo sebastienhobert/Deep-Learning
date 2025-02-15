@@ -26,6 +26,8 @@ Flattening = converting 2d image to 1d vector
 
 Gradient Descent = optimization algorithm used to train ML models by locating the minimum values within a cost function (minimizing the cost function as much as possible)
 
+Hyperparameter = configuration setting that control the learning process of the model (epochs, learning rate, etc.)
+
 Loss Function = it measures the difference between the prediction and the actual output, it's a crucial component in training neural networks as it provides a quantifiable metric to guide the optimization process (MeanSquaredError for regression tasks, Cross-Entropy Loss for classification tasks)
 
 Optimizer = helps to minimize the loss function
