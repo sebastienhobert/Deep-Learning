@@ -28,6 +28,8 @@ Gradient Descent = optimization algorithm used to train ML models by locating th
 
 Hyperparameter = configuration setting that control the learning process of the model (epochs, learning rate, etc.)
 
+K-Fold Cross-Validation = it evaluates how well a machine learning model will perform on unseen data
+
 Loss Function = it measures the difference between the prediction and the actual output, it's a crucial component in training neural networks as it provides a quantifiable metric to guide the optimization process (MeanSquaredError for regression tasks, Cross-Entropy Loss for classification tasks)
 
 Optimizer = helps to minimize the loss function
