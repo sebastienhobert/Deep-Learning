@@ -33,6 +33,7 @@ K-Fold Cross-Validation = it evaluates how well a machine learning model will pe
 Learning rate = determines the step size at each iteration while moving towards a minimum of a loss function
 
 Loss Function = it measures the difference between the prediction and the actual output, it's a crucial component in training neural networks as it provides a quantifiable metric to guide the optimization process (MeanSquaredError for regression tasks, Cross-Entropy Loss for classification tasks)
+Loss Function = Regression models (predict continuous values) and Classification models (predict the output from a set of finite categorical values)
 
 Optimizer = helps to minimize the loss function
 
