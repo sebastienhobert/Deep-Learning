@@ -38,6 +38,7 @@ Loss Function = Regression models (predict continuous values) and Classification
 Optimizer = helps to minimize the loss function
 
 Overfitting = when a model gets trained with so much data, it starts learning from the noise and inaccurate data entries
+Overfitting = can be prevented using cross-validation, data augmentation, dropout, early stopping, etc.
 
 ReLU = an activation function that allows a model to solve nonlinear problems
 
