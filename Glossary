@@ -30,15 +30,17 @@ Hyperparameter = configuration setting that control the learning process of the 
 
 K-Fold Cross-Validation = it evaluates how well a machine learning model will perform on unseen data
 
-Learning rate = determines the step size at each iteration while moving towards a minimum of a loss function
+Learning Rate = determines the step size at each iteration while moving towards a minimum of a loss function
 
 Loss Function = it measures the difference between the prediction and the actual output, it's a crucial component in training neural networks as it provides a quantifiable metric to guide the optimization process (MeanSquaredError for regression tasks, Cross-Entropy Loss for classification tasks)
 Loss Function = Regression models (predict continuous values) and Classification models (predict the output from a set of finite categorical values)
 
-Optimizer = helps to minimize the loss function
+Model Overfitting = when a model gets trained with so much data, it starts learning from the noise and inaccurate data entries
+Model Overfitting = can be prevented using cross-validation, data augmentation, dropout, early stopping, etc.
 
-Overfitting = when a model gets trained with so much data, it starts learning from the noise and inaccurate data entries
-Overfitting = can be prevented using cross-validation, data augmentation, dropout, early stopping, etc.
+Model Underfitting = when a model is too simple to capture the underlying patterns in data, resulting in poor performance on both training and test data
+
+Optimizer = helps to minimize the loss function
 
 ReLU = an activation function that allows a model to solve nonlinear problems
 
