@@ -40,6 +40,8 @@ Model Overfitting = can be prevented using cross-validation, data augmentation, 
 
 Model Underfitting = when a model is too simple to capture the underlying patterns in data, resulting in poor performance on both training and test data
 
+Neural Network = interconnected nodes/neurons organized in layers to perform complex tasks
+
 Optimizer = helps to minimize the loss function
 
 ReLU = an activation function that allows a model to solve nonlinear problems
