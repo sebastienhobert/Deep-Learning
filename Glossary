@@ -42,6 +42,8 @@ Model Underfitting = when a model is too simple to capture the underlying patter
 
 Neural Network = interconnected nodes/neurons organized in layers to perform complex tasks
 
+Normalization = the process of adjusting the input data to improve the performance and training stability of the model, such as scaling inputs to a standard range
+
 Optimizer = helps to minimize the loss function
 
 ReLU = an activation function that allows a model to solve nonlinear problems
