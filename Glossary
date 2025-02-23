@@ -44,6 +44,8 @@ Neural Network = interconnected nodes/neurons organized in layers to perform com
 
 Normalization = the process of adjusting the input data to improve the performance and training stability of the model, such as scaling inputs to a standard range
 
+Pooling Layer = a layer in CNNs that reduces the spatial dimensions of the input, helping to make the model computationally efficient and less prone to overfitting
+
 Optimizer = helps to minimize the loss function
 
 ReLU = an activation function that allows a model to solve nonlinear problems
