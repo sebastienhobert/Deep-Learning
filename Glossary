@@ -49,6 +49,7 @@ Pooling Layer = a layer in CNNs that reduces the spatial dimensions of the input
 Optimizer = helps to minimize the loss function
 
 ReLU = an activation function that allows a model to solve nonlinear problems
+ReLU = it's ability to output zero for negative inputs introduces sparsity in the network, meaning that only a fraction of neurons activate at any given time
 
 Softmax = a function that provides probabilities for each possible output class
 
