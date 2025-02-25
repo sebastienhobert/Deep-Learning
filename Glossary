@@ -51,6 +51,9 @@ Optimizer = helps to minimize the loss function
 ReLU = an activation function that allows a model to solve nonlinear problems
 ReLU = it's ability to output zero for negative inputs introduces sparsity in the network, meaning that only a fraction of neurons activate at any given time
 
+RNN = recognize patterns in sequential data (text, speech..), well-suited for tasks where context and order are important
+RNN = unlike traditional FNNs which process inputs independently, RNNs have connections that form directed cycles, allowing them to maintain a 'memory' of previous inputs
+
 Softmax = a function that provides probabilities for each possible output class
 
 Stochastic = random probability distribution
