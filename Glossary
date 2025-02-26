@@ -48,6 +48,9 @@ Pooling Layer = a layer in CNNs that reduces the spatial dimensions of the input
 
 Optimizer = helps to minimize the loss function
 
+Regularization = it prevents a model from overfitting by adding a penalty for complexity to the loss function
+Regularization = this penalty discourages the model from learning overly complex patterns that fit the training data too closely but fail to generalize well to unseen data
+
 ReLU = an activation function that allows a model to solve nonlinear problems
 ReLU = it's ability to output zero for negative inputs introduces sparsity in the network, meaning that only a fraction of neurons activate at any given time
 
