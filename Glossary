@@ -64,4 +64,6 @@ Stochastic = random probability distribution
 
 Stochastic Gradient Descent (SGD) = a variant of gradient descent where updates are made based on a randomly selected subset of the training data, improving convergence speed and reducing computational cost
 
+Support Vector Machine (SVM) = supervised machine learning algorithm where the goal is to find the optimal hyperplane that best separates the data points of different classes
+
 Tensor = a tensor is a multidimensional array that represents the data in a machine learning model
