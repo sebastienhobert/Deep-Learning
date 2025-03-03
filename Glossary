@@ -68,3 +68,5 @@ Support Vector Machine (SVM) = supervised machine learning algorithm where the g
 
 Tensor = multidimensional array that represents the data in a machine learning model
 Tensor = it has different ranks (dimensions) such as scalars, vectors and matrices
+
+Training data = it teaches a ML model how to behave, whereas Testing data assesses how well the model has learned
