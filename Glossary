@@ -69,4 +69,11 @@ Support Vector Machine (SVM) = supervised machine learning algorithm where the g
 Tensor = multidimensional array that represents the data in a machine learning model
 Tensor = it has different ranks (dimensions) such as scalars, vectors and matrices
 
+Test data = data used to evaluate the final performance of the trained model
+
 Training data = it teaches a ML model how to behave, whereas Testing data assesses how well the model has learned
+
+Transfer learning = a technique where a pre-trained model on one task is fine-tuned or adapted for a different related task, leveraging existing knowledge
+
+Validation data = a separate dataset used during training to tune hyperparameters and assess the model's performance
+
