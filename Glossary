@@ -78,3 +78,5 @@ Transfer learning = a technique where a pre-trained model on one task is fine-tu
 Validation data = a separate dataset used during training to tune hyperparameters and assess the model's performance
 
 Vanishing Gradient Problem = a situation where gradients become too small during backpropagation, causing slow learning or halted training (especially in deep networks)
+
+Weight initialization = the process of setting initial weights for a neural network before training begins, proper initialization is crucial for effective learning
