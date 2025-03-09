@@ -80,3 +80,5 @@ Validation data = a separate dataset used during training to tune hyperparameter
 Vanishing Gradient Problem = a situation where gradients become too small during backpropagation, causing slow learning or halted training (especially in deep networks)
 
 Weight initialization = the process of setting initial weights for a neural network before training begins, proper initialization is crucial for effective learning
+
+Word embedding = technique in NLP capturing semantic relationships between words
