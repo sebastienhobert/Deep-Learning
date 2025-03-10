@@ -2,6 +2,8 @@ Activation Function = it decides whether a neuron should be activated or not bas
 
 Adam Optimizer = (Adaptive moment estimation) it adjusts the learning rate for each individual parameter within a model rather than using a single global learning rate
 
+Autoencoder = type of artificial neural network that learns to represent data in a compressed form and then reconstructs it as closely as possible to the original input
+
 Batch Normalization = it helps in stabilizing the training process. It enables higher learning rates and faster convergence
 
 Backpropagation = the goal is to reduce the difference between the model's predicted output and the actual output by adjusting the weights and biases in the network
