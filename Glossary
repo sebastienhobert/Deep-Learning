@@ -6,6 +6,8 @@ Autoencoder = type of artificial neural network that learns to represent data in
 
 Batch Normalization = it helps in stabilizing the training process. It enables higher learning rates and faster convergence
 
+Batch Size = number of samples (images, text, data points) used in one forward and backward pass during training
+
 Backpropagation = the goal is to reduce the difference between the model's predicted output and the actual output by adjusting the weights and biases in the network
 
 Classification = a machine learning model used for distinguishing among two or more output categories
